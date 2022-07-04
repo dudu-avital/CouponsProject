@@ -45,12 +45,7 @@ public class CompaniesController {
     @GetMapping("/{id}")
     public Company getCompanyById(@PathVariable("id") long id) {
         return companiesLogic.getCompanyById(id);
-
-
-
     }
-
-
 
     //method = DELETE
     // http://localhost:8080/companies/5
