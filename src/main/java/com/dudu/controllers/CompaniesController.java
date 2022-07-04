@@ -44,8 +44,10 @@ public class CompaniesController {
     // http://localhost:8080/companies/5
     @GetMapping("/{id}")
     public Company getCompanyById(@PathVariable("id") long id) {
-
         return companiesLogic.getCompanyById(id);
+
+
+
     }
 
 
